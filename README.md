@@ -1,4 +1,3 @@
-# Features
 ## Kestrel FBW Fix
 Tunable fly-by-wire PID parameters for the FQ-106 Kestrel, replacing its stock oscillation-prone values. All gains are exposed in BepInEx config.
 ## F-16M FBW Fix
