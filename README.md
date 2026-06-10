@@ -1,9 +1,3 @@
-# QoL Combo Fix
-
-A BepInEx plugin for Nuclear Option that combines several quality-of-life fixes and compatibility patches for the P2082 QoL mod and Aryx aircraft.
-
----
-
 ## Features
 
 ### Kestrel FBW Fix
