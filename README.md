@@ -2,7 +2,7 @@
 
 ### Kestrel FBW Fix (Calibrated to Default)
 Tunable fly-by-wire PID parameters for the FQ-106 Kestrel, replacing its stock oscillation-prone values. All gains are exposed in BepInEx config.
-### F-16M FBW Fix
+### F-16M FBW Fix (Calibrated to Default)
 - **Center of Mass correction** — The F-16M's CoM is rear-heavy (Z = −0.06), causing persistent pitch-up and tail/engine damage when spawning. This fix shifts the CoM forward to a configurable Z position (default 0.5).
 - Tunable FBW PID parameters (pFactorFast, dFactorFast, yaw/roll tightness, angular velocity limits).
 - **Landing Gear Softening** — The F-16M's stock landing gear is overly stiff and bounces the aircraft back into the air on touchdown. This fix applies configurable multipliers to the gear's spring rate and damping rate (defaults: 0.7x spring, 2.0x damping) for a smoother landing.
