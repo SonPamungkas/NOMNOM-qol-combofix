@@ -18,9 +18,7 @@ Recenters the wake VFX origin onto the hull centerline for big ships, fixing bot
 - **Hide P2082ModTag** — Hides the QoL version banner on the main menu.
 - **Fix Drop Tank Pierce Damage** — Zeroes the pierce damage on `P_DropTank1_spent` so jettisoned tanks no longer destroy your aircraft.
 - **F-16M Drop Tank** — Adds the DT-1600 drop tank as a loadout option on the F-16M's inner wing pylons.
-- **Revert F-16M Gun** — Restores the F-16M's internal gun to the vanilla 20mm Rotary Cannon, undoing QoL's 25mm Autocannon rename.
-- **F-16M / F-99 Access QoL 20mm** — Injects the Revoker's 20mm Rotary DP (and AP/HE/Stealth variants) as gun hardpoint options on the F-16M and F-99.
-- **Cross-Aircraft Weapon Transfer** — Copies QoL-added weapon loadouts from vanilla aircraft to Aryx equivalents (Chicane->Knockout, Revoker->F-99, Cricket->MiG-15, Vortex->F-16M).
+- **Cross-Aircraft Weapon Transfer** — Copies QoL-added weapon loadouts from vanilla aircraft to Aryx equivalents (Chicane→Knockout, Revoker→F-99, Cricket→MiG-15, Vortex→F-16M).
 - **Compass Nozzle Fix** — QoL's T/A-30 Compass model swap (CompassNew bundle) reassigns the engine nozzle meshes but leaves their materials mismatched, making the nozzles appear to disappear. This fix copies the correct materials over so the nozzles render properly.
 
 ## Requirements
