@@ -1,0 +1,18 @@
+CAS1/fuselage_F/cockpit hardpointset add 8
+CAS1/fuselage_F/cockpit hardpointset addhardpoint 8
+CAS1/fuselage_F/cockpit hardpointset name 8 "Tail Mount"
+CAS1/fuselage_F/cockpit hardpointset modifyhardpoint 8 Blank 0 CAS1/contactSparks CAS1
+CAS1/contactSparks transform 0 -0.25 -0.4 0 0 0 1.1 1.1 1.1
+CAS1 addweapon9 null
+CAS1 addweapon9 TailHook_Trainer
+
+P_Trisurface1/fuselage_F/cockpit hardpointset add 9
+P_Trisurface1/fuselage_F/cockpit hardpointset addhardpoint 9
+P_Trisurface1/fuselage_F/cockpit hardpointset name 9 "Tail Mount"
+P_Trisurface1/fuselage_F/cockpit hardpointset modifyhardpoint 9 Blank 0 P_Trisurface1/contactSparks P_Trisurface1
+P_Trisurface1/contactSparks transform 0 -0.6 -5.5 0 0 0 1.1 1.1 1.1
+P_Trisurface1 addweapon10 null
+P_Trisurface1 addweapon10 TailHook_Multirole1
+
+TailHook_Multirole1 TailHook deployedAngle modify 114.77
+TailHook_Trainer TailHook deployedAngle modify 135
