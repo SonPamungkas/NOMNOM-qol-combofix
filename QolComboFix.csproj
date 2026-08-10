@@ -4,28 +4,20 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <AssemblyName>QolComboFix</AssemblyName>
     <Product>QolComboFix</Product>
-    <Version>1.1.4</Version>
+    <Version>1.1.5</Version>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <LangVersion>latest</LangVersion>
     <RestoreAdditionalProjectSources>
       https://api.nuget.org/v3/index.json;
-      https://nuget.bepinex.dev/v3/index.json;
-      https://nuget.samboy.dev/v3/index.json
+      https://nuget.bepinex.dev/v3/index.json
     </RestoreAdditionalProjectSources>
     <RootNamespace>QolComboFix</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="qolqol\**" />
-    <Compile Remove="archive\**" />
-    <Compile Remove="qol_definition_fix.cs" />
-  </ItemGroup>
-
-
-
-  <ItemGroup>
     <EmbeddedResource Include="Extra\tailhook.commands.qol" />
   </ItemGroup>
+
   <ItemGroup>
     <PackageReference Include="BepInEx.Analyzers" Version="1.*" PrivateAssets="all" />
     <PackageReference Include="BepInEx.Core" Version="5.*" />
@@ -44,10 +36,6 @@
     </Reference>
     <Reference Include="Mirage">
       <HintPath>..\..\COMPILER_HERE\game\Mirage.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="qol_1.1.8.0">
-      <HintPath>..\qolqol\qol_1.1.8.1.dll</HintPath>
       <Private>False</Private>
     </Reference>
   </ItemGroup>
